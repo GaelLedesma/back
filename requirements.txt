@@ -1,0 +1,12 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-dotenv==1.0.1
+
+# Pydantic v2 stack
+pydantic>=2.7.0,<3.0
+pydantic-settings>=2.7.0,<3.0
+email-validator
+
+# DB
+sqlalchemy
+psycopg2-binary
